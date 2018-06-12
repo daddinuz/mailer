@@ -1,0 +1,22 @@
+{
+  "name": "mailer",
+  "repo": "daddinuz/mailer",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "Send emails over smtp.",
+  "keywords": [
+    "email",
+    "smtps",
+    "smtp"
+  ],
+  "src": [
+    "sources/mailer.h",
+    "sources/mailer.c"
+  ],
+  "dependencies": {
+    "daddinuz/error": "0.2.0",
+    "daddinuz/panic": "0.3.0",
+    "daddinuz/alligator": "0.24.0"
+  },
+  "makefile": "sources/build.cmake"
+}
